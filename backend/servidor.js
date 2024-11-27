@@ -26,7 +26,7 @@ conectarBDMongo();
 // Verificar conexión a PostgreSQL
 pool.connect().catch(err => console.error('Error al conectar a PostgreSQL:', err.message ));
 
-  
+
 
 // Rutas
 app.use('/api/productos', require('./src/rutas/rutasProducto'));
